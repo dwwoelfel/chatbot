@@ -88,7 +88,7 @@
     "react-resizable-panels": "^2.1.7",
     "react-syntax-highlighter": "^15.6.6",
     "redis": "^5.0.0",
-    "resumable-stream": "^2.2.10",
+    "@instantdb/resumable-stream": "^0.22.151",
     "server-only": "^0.0.1",
     "shiki": "^3.21.0",
     "sonner": "^1.5.0",

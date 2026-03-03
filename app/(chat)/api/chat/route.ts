@@ -9,7 +9,7 @@ import {
   streamText,
 } from "ai";
 import { after } from "next/server";
-import { createResumableStreamContext } from "resumable-stream";
+import { createResumableStreamContext } from "@instantdb/resumable-stream";
 import { auth, type UserType } from "@/app/(auth)/auth";
 import { entitlementsByUserType } from "@/lib/ai/entitlements";
 import { type RequestHints, systemPrompt } from "@/lib/ai/prompts";
